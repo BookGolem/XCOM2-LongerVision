@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>69e083a3-82e0-4e79-bc4b-91d2743e834f</Guid>
+    <Name>Longer Vision [WOTC]</Name>
+    <Description>This mod increases the vision range of all characters (soldiers and aliens) by five times, providing a more "realistic" range of sight. Weapon range tables and the maximum engaging enemies have been updated to compensate.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>LongerVision</AssemblyName>
+    <RootNamespace>LongerVision</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Config\XComAI.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_CharacterStats.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
