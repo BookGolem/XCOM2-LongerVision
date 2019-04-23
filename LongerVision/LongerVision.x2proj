@@ -18,6 +18,9 @@
     <Content Include="Config\XComGameData_WeaponData.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Config\XComLW_SMGPack_WotC.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModPreview.jpg">
       <SubType>Content</SubType>
     </Content>
