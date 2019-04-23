@@ -7,7 +7,7 @@ Increases number of active enemies, because you're definately going to be seeing
 
 Currently works for selected modded enemies/allies - Mod may need to load last to apply effects?
 
-Should work for SMGs.
+Works for SMGs.
 
 Anything using a custom range table (ally or enemy) will end up using its longest range option if beyond that range (eg, the basic Shotgun would cap at -30 using the standard table, even firing at 70+ squared away).
 In particular, this will affect Hunter Rifles from the Pathfinders mod - the range tables for these drop off dramatically, which I have taken to be a design choice of the modmaker. As such, 
